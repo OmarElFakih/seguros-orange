@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 /*------ Pages-----*/
 import { Home } from "./Pages/Home";
-import DigitalMarketing from "./Pages/Digital-marketing";
+/*import DigitalMarketing from "./Pages/Digital-marketing";
 import PaymentProcessing from "./Pages/Payment-processing";
 import HRManagement from "./Pages/HR-Management";
 import Startup from "./Pages/Startup";
@@ -16,10 +16,10 @@ import Portfolio3col from "./Pages/Portfolio-3col";
 import Portfoliofull4col from "./Pages/Portfolio-fullwidth-4col";
 import PortfolioSingle from "./Pages/PortfolioSingle";
 import Bloglist from "./Pages/Bloglist";
-import BlogSingle from "./Pages/BlogSingle";
+import BlogSingle from "./Pages/BlogSingle";*/
 import Contact from "./Pages/Contact";
 import ScrollToTopRoute from "./ScrollToTopRoute";
-import Landing from "./Pages/Landing";
+/*import Landing from "./Pages/Landing";
 import homesupport from "./Pages/home-support";
 import homeERP from "./Pages/Home-ERP";
 import homeHosting from "./Pages/HomeHosting";
@@ -31,13 +31,15 @@ import HomeTracking from "./Pages/Home-tracking";
 import HomeEvent from "./Pages/Home-event";
 import HomeChat from "./Pages/Home-chat";
 import Price from "./Pages/Price";
-import Faq from "./Pages/Faq";
+import Faq from "./Pages/Faq";*/
 import Condicionado from "./Pages/Condicionado";
 import CondicionesWeb from "./Pages/CondicionesWeb";
 import Privacidad from "./Pages/Privacidad";
-import SignIn from "./Pages/SignIn";
+import Enmergencias from "./Pages/Enmergencias";
+import ConsultarPlan from './Pages/ConsultarPlan';
+/*import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
-import BlogGridPage from "./Pages/BlogGridPage";
+import BlogGridPage from "./Pages/BlogGridPage";*/
 import NotFound from "./Pages/404";
 
 import injectContext from "./store/appContext";
@@ -52,7 +54,7 @@ class App extends Component {
       <Router>
         <Switch>
           <ScrollToTopRoute exact={true} path={"/"} component={Home} />
-          <ScrollToTopRoute
+          {/*<ScrollToTopRoute
             path="/Digital-marketing"
             component={DigitalMarketing}
           />
@@ -80,7 +82,6 @@ class App extends Component {
           <ScrollToTopRoute path="/Bloglist" component={Bloglist} />
           <ScrollToTopRoute path="/BlogSingle" component={BlogSingle} />
           <ScrollToTopRoute path="/BlogGridPage" component={BlogGridPage} />
-          <ScrollToTopRoute path="/Contact" component={Contact} />
           <ScrollToTopRoute path="/Landing" component={Landing} />
           <ScrollToTopRoute path="/home-support" component={homesupport} />
           <ScrollToTopRoute path="/HomeHosting" component={homeHosting} />
@@ -99,12 +100,16 @@ class App extends Component {
           <ScrollToTopRoute path="/Home-event" component={HomeEvent} />
           <ScrollToTopRoute path="/Home-chat" component={HomeChat} />
           <ScrollToTopRoute path="/Price" component={Price} />
-          <ScrollToTopRoute path="/Faq" component={Faq} />
+          <ScrollToTopRoute path="/Faq" component={Faq} />*/}
+          <ScrollToTopRoute path="/Contact" component={Contact} />
           <ScrollToTopRoute path="/Condicionado" component={Condicionado} />
           <ScrollToTopRoute path="/CondicionesWeb" component={CondicionesWeb} />
           <ScrollToTopRoute path="/Privacidad" component={Privacidad} />
-          <ScrollToTopRoute path="/SignIn" component={SignIn} />
-          <ScrollToTopRoute path="/SignUp" component={SignUp} />
+          <ScrollToTopRoute path="/Enmergencias" component={Enmergencias} />
+          <ScrollToTopRoute path="/Consultar" component={ConsultarPlan} />
+
+          {/*<ScrollToTopRoute path="/SignIn" component={SignIn} />
+          <ScrollToTopRoute path="/SignUp" component={SignUp} />*/}
           <ScrollToTopRoute path="/Cotizador" component={Cotizador}/>
           <ScrollToTopRoute component={NotFound} />
           

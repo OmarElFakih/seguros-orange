@@ -139,4 +139,13 @@ label{
     margin-left: 15%;
 }
 
+.voucher-select{
+    width: 100%;
+    height: 60px;
+    padding: 17px 0px;
+    margin-left: 1px;
+    color: #677294;
+    border-width: 0px;
+}
+
 

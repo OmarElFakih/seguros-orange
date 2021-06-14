@@ -236,7 +236,7 @@ class CustomNavbar extends Component {
                                     
                                     </ul>
                                 </li>
-                                
+                                <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Enmergencias">Enmergencias</NavLink></li>
                                 <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Contact">Contacto</NavLink></li>
                             </ul>
                             {/*<a className={`btn_get btn_hover ${hbtnClass}`} href="#get-app">Get Started</a>*/}
