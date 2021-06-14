@@ -12,7 +12,7 @@ class PrototypeFooter extends Component {
                         <div className="row">
                             <div className="col-lg-4 col-sm-6">
                                 <div className="f_widget company_widget">
-                                    <a href="index.html" className="f-logo"><img src={require ('../../img/logo3.png')} alt="logo"/></a>
+                                    <a href="index.html" className="f-logo"><img src={require ('../../img/orangeMini.png')} alt="logo"/></a>
                                     <p className="mt_40">Copyright © 2018 Desing by <a href=".#">DroitThemes</a></p>
                                 </div>
                             </div>
