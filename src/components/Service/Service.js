@@ -61,7 +61,7 @@ const Service = () => {
                                 <div className="seo_features_content" style={{textAlign: "center"}}>
                                     <h2>Viajes por dia</h2>
                                     <p>Para personas que viajan por cortos periodos de tiempo, especialmente en viajes de turismo, negocio o placer</p>
-                                    <a className={`btn_get btn_hover `} href="#get-app">Cotizar</a>
+                                    <a className={`btn_get btn_hover `} href="/Cotizador">Cotizar</a>
                                 </div>
                             </Fade>
                         </div>
@@ -70,7 +70,7 @@ const Service = () => {
                                 <div className="seo_features_content" style={{textAlign: "center"}}>
                                     <h2>Plan anual o multiviajes</h2>
                                     <p>Para personas que estan fuera de su pais por largos periodos de tiempo</p>
-                                    <a className={`btn_get btn_hover `} href="#get-app">Cotizar</a>
+                                    <a className={`btn_get btn_hover `} href="/Cotizador">Cotizar</a>
                                 </div>
                             </Fade>
                         </div>
@@ -92,7 +92,7 @@ const Service = () => {
                                 <div className="seo_features_content">
                                     <h2>Consulte su plan</h2>
                                     <p>Si usted ha comprado un Plan de Asistencias de Orange Travel Assist y desea consultar sus beneficios y cobertura, imprimir su vaucher y ver las condiciones generales de la poliza.</p>
-                                    <a className={`btn_get btn_hover `} href="#get-app">Consultar</a>
+                                    <a className={`btn_get btn_hover `} href="/Consultar">Consultar</a>
                                     {/*<div className="media seo_features_item">
                                         <div className="icon"><img src={require('../../img/seo/icon4.png')} alt=""/></div>
                                         <div className="media-body">

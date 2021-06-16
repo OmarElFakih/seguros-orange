@@ -3405,7 +3405,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   left: 0;
   top: 0;
   z-index: -1;
-  background: url("../img/home5/shap_tecture.png") no-repeat scroll center 0/cover;
+  /*background: url("../img/home5/shap_tecture.png") no-repeat scroll center 0/cover;*/
 }
 
 /*=============== saas banner area ================*/
@@ -3431,7 +3431,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============= app_banner_area css ===========*/
 .app_banner_area {
-  background: url(../img/home7/banner.png) no-repeat scroll center 100%;
+  /*background: url(../img/home7/banner.png) no-repeat scroll center 100%;*/
   padding-top: 230px;
   padding-bottom: 210px;
   overflow: hidden;
@@ -7657,7 +7657,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-bottom: 150px;
   position: relative;
   z-index: 2;
-  background: url("../img/home9/shape_two.png") no-repeat scroll center 0;
+  /* background: url("../img/home9/shape_two.png") no-repeat scroll center 0; */
   background-size: cover;
 }
 
@@ -7680,7 +7680,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .pay_icon {
-  background: url("../img/home9/icon_shape_two.png") no-repeat scroll center 0;
+  /* background: url("../img/home9/icon_shape_two.png") no-repeat scroll center 0; */
   width: 110px;
   height: 103px;
   text-align: center;
@@ -8567,7 +8567,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: 0;
   left: 0;
   position: absolute;
-  background: url("../img/home2/action_bg.png") no-repeat scroll center 0;
+  /*background: url("../img/home2/action_bg.png") no-repeat scroll center 0;*/
 }
 
 .call_action_area .action_one {
@@ -8748,7 +8748,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 100px;
   left: 0;
   z-index: -1;
-  background: url("../img/home4/action_shap.png") no-repeat scroll center top;
+  /*background: url("../img/home4/action_shap.png") no-repeat scroll center top;*/
   top: 0;
   background-size: contain;
 }
@@ -10405,7 +10405,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 85px;
   top: -82px;
   left: 0;
-  background: url("../img/home9/triangle_top.png") no-repeat;
+  /* background: url("../img/home9/triangle_top.png") no-repeat; */
 }
 
 .payment_clients_area .clients_bg_shape_right {
@@ -10555,7 +10555,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 85px;
   top: 0px;
   left: 0;
-  background: url("../img/home9/triangle_bottom.png") no-repeat;
+  /* background: url("../img/home9/triangle_bottom.png") no-repeat; */
   background-size: contain;
 }
 
@@ -10994,7 +10994,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .seo_fact_info:before {
   content: "";
-  background: url("../img/seo/shap.png") no-repeat scroll center center;
+  /* background: url("../img/seo/shap.png") no-repeat scroll center center; */
   position: absolute;
   left: 0;
   width: 100%;
@@ -12896,7 +12896,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .seo_subscribe_area .overlay_img {
-  background: url("../img/seo/cloud_bg.png") no-repeat scroll center 0/cover;
+  /* background: url("../img/seo/cloud_bg.png") no-repeat scroll center 0/cover; */
   position: absolute;
   top: 0;
   width: 100%;
@@ -17832,7 +17832,7 @@ input[type="text"] {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../img/hosting/map.png") no-repeat scroll center 0/cover;
+  /* background: url("../img/hosting/map.png") no-repeat scroll center 0/cover; */
   z-index: -1;
 }
 
@@ -18371,7 +18371,7 @@ a .h_head:hover {
 }
 
 .h_map {
-  background: url("../img/hosting/region_map.png") no-repeat scroll center top;
+  /* background: url("../img/hosting/region_map.png") no-repeat scroll center top; */
   height: 595px;
 }
 
@@ -18628,7 +18628,7 @@ a .h_head:hover {
   content: "";
   width: 100%;
   height: 100%;
-  background: url(../img/pos/wave_two.png) no-repeat scroll center bottom;
+  /* background: url(../img/pos/wave_two.png) no-repeat scroll center bottom; */
   position: absolute;
   left: 0;
   top: -100%;
@@ -19331,7 +19331,7 @@ a .h_head:hover {
 
 /*=========== erp_analytics_area css ============*/
 .erp_analytics_area {
-  background: url("../img/erp-home/background.png") no-repeat scroll center 0/cover;
+  /*background: url("../img/erp-home/background.png") no-repeat scroll center 0/cover;*/
   padding: 100px 0px 220px;
 }
 
@@ -19495,7 +19495,7 @@ a .h_head:hover {
 .erp_call_action_area:before {
   content: "";
   position: absolute;
-  background: url("../img/erp-home/shape.png") no-repeat scroll center bottom/cover;
+  /*background: url("../img/erp-home/shape.png") no-repeat scroll center bottom/cover;*/
   width: 100%;
   left: 0;
   height: 100%;
@@ -19853,7 +19853,7 @@ a .h_head:hover {
   content: "";
   width: 100%;
   height: 10px;
-  background: url("../img/pos/shape_bg.png") no-repeat scroll center bottom/cover;
+  /* background: url("../img/pos/shape_bg.png") no-repeat scroll center bottom/cover; */
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -20633,7 +20633,7 @@ a .h_head:hover {
 
 .support_testimonial_info .testimonial_slider .testimonial_item:before {
   content: "";
-  background: url(../img/new-home/back_bg.png) no-repeat scroll center center;
+  /* background: url(../img/new-home/back_bg.png) no-repeat scroll center center; */
   position: absolute;
   left: 0;
   top: 0;
@@ -21965,7 +21965,7 @@ a .h_head:hover {
 }
 
 .analytices_action_area_two:after {
-  background: url("../img/home-software/down_bg.png") no-repeat scroll;
+  /*background: url("../img/home-software/down_bg.png") no-repeat scroll;*/
   top: -70%;
 }
 
@@ -22700,7 +22700,7 @@ a .h_head:hover {
 
 .footer_nine_area .footer_shap {
   position: absolute;
-  background: url("../img/home9/footer.png") no-repeat scroll center;
+  /* background: url("../img/home9/footer.png") no-repeat scroll center; */
   left: 0;
   width: 100%;
   background-size: cover;
@@ -22829,11 +22829,11 @@ a .h_head:hover {
 }
 
 .footer_nine_bottom .flag_selector .flag-icon.flag-icon-us {
-  background-image: url(../img/home9/flag.png);
+  /* background-image: url(../img/home9/flag.png); */
 }
 
 .footer_nine_bottom .flag_selector .flag-icon.flag-icon-mx {
-  background-image: url(../img/home9/flag.png);
+  /* background-image: url(../img/home9/flag.png); */
 }
 
 .footer_nine_bottom .flag_selector .dropdown-menu {
@@ -22996,13 +22996,13 @@ a .h_head:hover {
 .new_footer_top .footer_bg {
   position: absolute;
   bottom: 0;
-  background: url("../img/seo/footer_bg.png") no-repeat scroll center 0;
+  /* background: url("../img/seo/footer_bg.png") no-repeat scroll center 0; */
   width: 100%;
   height: 266px;
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-  background: url("../img/seo/car.png") no-repeat center center;
+  /* background: url("../img/seo/car.png") no-repeat center center; */
   width: 70px;
   height: 50px;
   position: absolute;
@@ -23013,7 +23013,7 @@ a .h_head:hover {
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-  background: url("../img/seo/bike.png") no-repeat center center;
+  /* background: url("../img/seo/bike.png") no-repeat center center; */
   width: 50px;
   height: 52px;
   bottom: 0;
@@ -23526,7 +23526,7 @@ a .h_head:hover {
   height: 560px;
   z-index: -1;
   left: 0;
-  background: url("../img/home-software/down_bg.png") no-repeat scroll;
+  /*background: url("../img/home-software/down_bg.png") no-repeat scroll;*/
   bottom: 0;
   background-size: cover;
 }
@@ -23984,7 +23984,7 @@ a .h_head:hover {
 
 .tracking_getting_area {
   text-align: center;
-  background: url("../img/home-tracking/cta_pattern_bg.jpg") no-repeat scroll center 0/cover;
+  /*background: url("../img/home-tracking/cta_pattern_bg.jpg") no-repeat scroll center 0/cover;*/
 }
 
 .tracking_getting_area h2 {
@@ -24661,7 +24661,7 @@ a .h_head:hover {
 
 .event_price_item:before {
   content: "";
-  background: url("../img/home-event/price_shap.png") no-repeat scroll center bottom;
+  /*background: url("../img/home-event/price_shap.png") no-repeat scroll center bottom;*/
   position: absolute;
   bottom: -22px;
   left: 0;
@@ -24742,7 +24742,7 @@ a .h_head:hover {
 }
 
 .event_fact_area .seo_fact_info:before {
-  background: url("../img/home-event/dot.png") no-repeat center center;
+  /*background: url("../img/home-event/dot.png") no-repeat center center;*/
 }
 
 .event_fact_area .seo_fact_info .seo_fact_item {
@@ -25166,7 +25166,7 @@ a .h_head:hover {
 }
 
 .chat_get_started_area {
-  background: url("../img/home-chat/get_started_bg.png") no-repeat scroll center bottom;
+  /*background: url("../img/home-chat/get_started_bg.png") no-repeat scroll center bottom;*/
   height: 712px;
   padding-top: 120px;
 }
