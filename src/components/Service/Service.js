@@ -1,8 +1,8 @@
 import React from 'react';
 import SeoTitle from '../Title/SeoTitle';
 import Fade from 'react-reveal/Fade';
-import Virus from '../../img/outbreak.jpg';
-import Traveling from '../../img/traveling2.jpg';
+import Virus from "../../img/outbreak.jpg";
+import Traveling from "../../img/traveling2.jpg";
 
 const Service = () => {
     return(

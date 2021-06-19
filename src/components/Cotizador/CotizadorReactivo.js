@@ -151,14 +151,14 @@ const CotizadorReactivo = ({
                         <label>
                         <input style={{opacity: "0"}} type="radio" id="por dia"  name="tipo" value="Viajes por dia" onChange={e => setTipo(e.target.value)}/>
                             <div style={{display: (isTabletOrMobile ? "none":"block"), marginLeft: "16%" }}>
-                                <img src={require('../../img/por-dia-selected.svg')}
+                                <img src={require("../../img/por-dia-selected.svg")}
                                     alt="por dia selected"
                                     width={128}
                                     height={128}
                                     style={{display: tipo == "Viajes por dia" ? "Block" : "none"}}
                                     />
                                 
-                                <img src={require('../../img/por-dia-unselected.svg')}
+                                <img src={require("../../img/por-dia-unselected.svg")}
                                     alt="por dia unselected"
                                     width={128}
                                     height={128}
@@ -171,14 +171,14 @@ const CotizadorReactivo = ({
                         <input style={{opacity: "0"}} type="radio" id="anuales"  name="tipo" value="Viajes Anuales" onChange={e => setTipo(e.target.value)}/>
                         
                         <div style={{display: (isTabletOrMobile ? "none":"block"), marginLeft: "19%"}}>
-                            <img src={require('../../img/Anuales-selected.svg')}
+                            <img src={require("../../img/Anuales-selected.svg")}
                                 alt="anuales selected"
                                 width={128}
                                 height={128}
                                 style={{display: tipo == "Viajes Anuales" ? "Block" : "none"}}
                                 />
 
-                            <img src={require('../../img/Anuales-unselected.svg')}
+                            <img src={require("../../img/Anuales-unselected.svg")}
                                 alt="anuales unselected"
                                 width={128}
                                 height={128}
@@ -278,14 +278,14 @@ const CotizadorReactivo = ({
                                                             <label>
                                                                 <input style={{opacity: "0"}} type="radio" id="Europa"  name="destino" value={1} onChange={e => {setDestino(e.target.value); setCurrentTextoDestino("Europa");}}/>
                                                                 <div style={{display: (isTabletOrMobile ? "none":"block"), marginLeft: "7%"}}>
-                                                                    <img src={require('../../img/big-ben-selected.svg')}
+                                                                    <img src={require("../../img/big-ben-selected.svg")}
                                                                         alt="Europa selected"
                                                                         width={128}
                                                                         height={128}
                                                                         style={{display: destino == 1 ? "Block" : "none"}}
                                                                         />
                                                                     
-                                                                    <img src={require('../../img/big-ben-unselected.svg')}
+                                                                    <img src={require("../../img/big-ben-unselected.svg")}
                                                                         alt=" Europa unselected"
                                                                         width={128}
                                                                         height={128}
@@ -298,14 +298,14 @@ const CotizadorReactivo = ({
                                                                 <input style={{opacity: "0"}} type="radio" id="EEUU"  name="destino" value={4} onChange={e => {setDestino(e.target.value); setCurrentTextoDestino("Estados Unidos");}}/>
                                                                 
                                                                 <div style={{display: (isTabletOrMobile ? "none":"block"), marginLeft: "18%"}}>
-                                                                    <img src={require('../../img/statue-of-liberty-selected.svg')}
+                                                                    <img src={require("../../img/statue-of-liberty-selected.svg")}
                                                                         alt="EEUU selected"
                                                                         width={128}
                                                                         height={128}
                                                                         style={{display: destino == 4 ? "Block" : "none"}}
                                                                         />
                                                                     
-                                                                    <img src={require('../../img/statue-of-liberty-unselected.svg')}
+                                                                    <img src={require("../../img/statue-of-liberty-unselected.svg")}
                                                                         alt=" EEUU unselected"
                                                                         width={128}
                                                                         height={128}
@@ -318,14 +318,14 @@ const CotizadorReactivo = ({
                                                             <label>
                                                                 <input style={{opacity: "0"}} type="radio" id="mundo"  name="destino" value={5} onChange={e => {setDestino(e.target.value); setCurrentTextoDestino("Resto del mundo");}}/>
                                                                 <div style={{display: (isTabletOrMobile ? "none":"block"), marginLeft: "23%"}}>
-                                                                    <img src={require('../../img/Mundo-selected.svg')}
+                                                                    <img src={require("../../img/Mundo-selected.svg")}
                                                                         alt="Mundo selected"
                                                                         width={128}
                                                                         height={128}
                                                                         style={{display: destino == 5 ? "Block" : "none"}}
                                                                         />
                                                                     
-                                                                    <img src={require('../../img/Mundo-unselected.svg')}
+                                                                    <img src={require("../../img/Mundo-unselected.svg")}
                                                                         alt="Mundo unselected"
                                                                         width={128}
                                                                         height={128}

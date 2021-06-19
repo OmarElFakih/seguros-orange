@@ -1,6 +1,6 @@
 import React from 'react';
 import Reveal from 'react-reveal/Reveal/';
-import BannerBackground from '../../img/airplane-flying.jpg';
+import BannerBackground from "../../img/airplane-flying.jpg";
 
 const DesignBanner = () => {
     return(
