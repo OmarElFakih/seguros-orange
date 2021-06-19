@@ -146,8 +146,8 @@ const FooterData = {
         id: 2,
         url: '#',
         icon: 'ti-twitter-alt',
-      },
-      {
+      }
+      /*{
         id: 3,
         url: '#',
         icon: 'ti-vimeo-alt',
@@ -156,7 +156,7 @@ const FooterData = {
         id: 4,
         url: '#',
         icon: 'ti-pinterest',
-      }
+      }*/
     ],
     copywrite:"© SaasLand Inc.. 2019 All rights reserved.",
     TestimonialText: [

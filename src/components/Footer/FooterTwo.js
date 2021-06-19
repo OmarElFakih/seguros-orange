@@ -1,8 +1,9 @@
 import React , {Component} from 'react';
-import AboutWidget from './FooterWidget/AboutWidget';
+/*import AboutWidget from './FooterWidget/AboutWidget';
 import SolutionWidget from './FooterWidget/SolutionWidget';
-import TeamWidget from './FooterWidget/TeamWidget';
-import Reveal from 'react-reveal/Reveal'
+import TeamWidget from './FooterWidget/TeamWidget';*/
+import Reveal from 'react-reveal/Reveal';
+import EnmergencyTable from "../EnmergencyTable";
 class FooterTwo extends Component {
     render(){
         var {fClass} = this.props;
@@ -20,22 +21,23 @@ class FooterTwo extends Component {
                                                 <div className="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s">
                                                 <a href="/" className="f-logo"><img src={require('../../img/orangeMini.png')} height={50} alt=""/></a>
                                                     <div className="widget-wrap">
-                                                        <p className="f_400 f_p f_size_15 mb-0 l_height34"><span>Email:</span> <a href="mailto:saasland@gmail.com" className="f_400">saasland@gmail.com</a></p>
-                                                        <p className="f_400 f_p f_size_15 mb-0 l_height34"><span>Phone:</span> <a href="tel:948256347968" className="f_400">+948 256 347 968</a></p>
+                                                        <p className="f_400 f_p f_size_15 mb-0 l_height34"><span>Email:</span> <a href="mailto:orange@orangetravelassist.com" className="f_400">orange@orangetravelassist.com</a></p>
+                                                        <p className="f_400 f_p f_size_15 mb-0 l_height34"><span>Telefono:</span> <a href="tel:19544536060" className="f_400">+1 954 453 6060</a></p>
                                                     </div>
-                                                    <form action="#" className="f_subscribe mailchimp" method="post">
+                                                   {/*<form action="#" className="f_subscribe mailchimp" method="post">
                                                         <input type="text" name="EMAIL" className="form-control memail" placeholder="Email"/>
                                                         <button className="btn btn-submit" type="submit"><i className="ti-arrow-right"></i></button>
-                                                    </form>
+                                                    </form>*/}
                                                 </div>
                                             </div>
                                         </Reveal>
                                     )
                                 })
                             }
-                            <AboutWidget ftitle="About Us"  FooterData={FooterData}/>
+                            {/*<AboutWidget ftitle="About Us"  FooterData={FooterData}/>
                             <SolutionWidget ftitle="Workflow Solutions" FooterData={FooterData}/>
-                            <TeamWidget ftitle="Team Solutions" FooterData={FooterData}/>
+                            <TeamWidget ftitle="Team Solutions" FooterData={FooterData}/>*/}
+                            <EnmergencyTable />
                         </div>
                     </div>
                 </div>

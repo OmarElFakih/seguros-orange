@@ -354,7 +354,7 @@ const CotizadorReactivo = ({
                     </div>
                     <br />
                     <div>
-                    {store.formFieldVisibility[4] ? <div ><Pasajeros /></div> : null}
+                    {store.formFieldVisibility[4] ? <div style={{marginTop: "110px"}}><Pasajeros /></div> : null}
                     </div>
                     <div style={{paddingTop: "10%"}}>
                     {store.formFieldVisibility[5] ?  
